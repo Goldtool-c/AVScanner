@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="252.0" minWidth="378.0" prefHeight="252.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gladyshev.controller.SequenceController">
+   <children>
+      <Label fx:id="seq" layoutX="14.0" layoutY="54.0" />
+      <ScrollBar fx:id="scroll" layoutX="350.0" layoutY="14.0" orientation="VERTICAL" prefHeight="227.0" prefWidth="14.0" />
+      <Label fx:id="title" layoutX="14.0" layoutY="22.0" text="Sequences:" />
+   </children>
+</AnchorPane>
